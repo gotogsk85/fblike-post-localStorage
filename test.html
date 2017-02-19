@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<title>Swiggy Test</title>
+		<link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="test.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="user-container">
+			<div class="user-screen">
+				<div class="login-screen show">
+					<form method="POST" class="login-form"">
+					  <div class="form-group">
+					    <label for="email">Email address:</label>
+					    <input type="email" class="form-control" id="email">
+					  </div>
+					  <div class="form-group">
+					    <label for="pwd">Password:</label>
+					    <input type="password" class="form-control" id="pwd">
+					  </div>
+					  <button type="button" class="btn btn-default" id="loginUser">Login</button>
+					  <button type="button" class="btn btn-default showRegForm">Show Register User Form</button>
+					</form>					
+				</div>
+				<div class="registration-screen hide">
+					<form method="POST" class="registration-form">
+					  <div class="form-group">
+					    <label for="email">Email address:</label>
+					    <input type="email" class="form-control" id="reg-email">
+					  </div>
+					  <div class="form-group">
+					    <label for="pwd">Password:</label>
+					    <input type="password" class="form-control" id="reg-pwd">
+					  </div>
+					  <div class="form-group">
+					    <label for="pwd">Confirm Password:</label>
+					    <input type="password" class="form-control" id="conf-pwd">
+					  </div>					  
+					  <button type="button" class="btn btn-default" id="register">Register</button>
+					</form>								
+				</div>								
+			</div>
+			<div class="user-post-screen hide" id="welcome-screen">
+				<div class="welcome-screen">
+					<b>Welcome "<span id="loggedin-user-email"></span>"</b>
+					<span id="logout">Logout</span>
+				</div>
+				<div class="add-friends" id="add-friends-area">
+					
+				</div>
+				<div class="add-friends" id="post-area">
+					<div id="post-from-user">
+						<form class="form-inline" id="post-form">
+						  <div class="form-group">
+						    <input type="email" class="form-control" placeholder="Post" id="user-post" autocomplete="off">
+						  </div>
+						  <button type="button" id="post" class="btn btn-default">POST</button>
+						</form>						
+					</div>
+					<div class="current-users-posts-area posts-area">
+						<h4>Your Posts</h4>
+						<div id="current-users-posts">
+							
+						</div>
+					</div>
+					<div class="friends-posts-area posts-area">
+						<h4>Your Friends Posts</h4>
+						<div id="friends-posts-area"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+		<script type="text/javascript" src="test.js"> </script>
+	</body>
+</html>

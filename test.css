@@ -1,0 +1,84 @@
+body {
+	background-color: #eee;
+}
+
+ul,li{
+	padding: 0px;
+	margin: 0px;
+}
+
+.user-screen{
+	margin: 0 auto;
+	width: 25%;
+	margin-top: 5%;
+}
+
+.hide{
+	display: none;
+}
+
+.block{
+	display: inline-block;
+}
+
+.user-post-screen{
+	width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+#add-friends-area{
+	margin: 0 auto;
+    width: 80%;
+    padding: 30px;	
+}
+
+.friend-suggesstion{
+	display: inline-block;
+    padding: 30px;
+    margin-right: 20px;
+    background-color: #eee;	
+}
+
+.friend-suggesstion:hover{
+	cursor: pointer;
+}
+
+#post-area{
+    margin: 0 auto;
+    width: 60%;
+}
+
+#post-from-user{
+	margin-bottom: 45px;
+}
+
+#post-from-user .form-group{
+    width: 70%;
+    margin-right: 30px;
+}
+
+#post-from-user input{
+	width: 100%;
+}
+
+.friend-posts, .your-posts{
+	padding: 10px 20px 20px 20px;
+    background-color: #eee;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+#friends-posts-area, #current-users-posts{
+	width: 85%;
+}
+
+#logout{
+	float: right;
+    cursor: pointer;
+}
+
+.posts-area > h4{
+	margin-bottom: 30px;
+}
