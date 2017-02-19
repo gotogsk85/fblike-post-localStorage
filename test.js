@@ -171,7 +171,7 @@
 				localStorage.setItem("users",JSON.stringify(userObj));
 				_showPostMessages();
 			}
-		}(loggedInUserId, userPostIndex)),3000)		
+		}(loggedInUserId, userPostIndex)),60000)		
 
 		alert("you posted !");
 		_showCurrentUsersPosts();
