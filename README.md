@@ -1,5 +1,10 @@
 # fblike-post-localStorage
 
+
+<p>
+<a href="https://gotogsk85.github.io/fblike-post-localStorage/test.html">Demo Page</a>
+</p>
+
  - the user can register
  - the user can login 
  - the user can add friends (but friend acceptance is by default)
