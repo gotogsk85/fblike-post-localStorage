@@ -183,6 +183,7 @@
 		userObj[loggedInUserId].loginStatus = false;
 		localStorage.setItem("users",JSON.stringify(userObj));
 		localStorage.setItem("loggedInUserId", null);
+		loggedInUserObj = null;
 		_showLoginForm();
 	}
 
