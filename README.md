@@ -10,3 +10,4 @@
  - All the data is "extensively" managed in local storage for now
  
  This is just a mini application for demo purposes
+ (pending task : need to updated timers for friends posts accordingly)
