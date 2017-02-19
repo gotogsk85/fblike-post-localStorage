@@ -15,3 +15,5 @@
  - All the data is "extensively" managed in local storage for now
  
  This is just a mini application for demo purposes (pending task : need to updated timers for friends posts accordingly)
+ 
+ PS Note : Do not check for the login / registration form validations . Kindly check only the functionality
