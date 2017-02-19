@@ -11,4 +11,4 @@
  
  This is just a mini application for demo purposes
  
-(Pending Task : need to update the friends-post-timer accoringly)
+(Pending Task : need to update the friends-post-timer accordingly)
