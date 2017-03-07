@@ -1,0 +1,54 @@
+*{margin:0;padding:0}
+a{text-decoration:none;color:#72c0ea;}
+a:hover{cursor:pointer}
+body{font-family: sans-serif;background-color: #e2e2e2;}
+.show{display:block;}
+.hide{display:none;}
+.mainContainer{margin:0 auto;width:50%;padding-top:20px;}
+.mainContainer > div{margin-top:20px}
+.sprites{background:url('../images/zoomcar_sprite.png') 0 0}
+.mainLogo{width:150px;height:70px;}
+.content{background-color:#fff;}
+.contentHeader{border-bottom:1px solid #e2e2e2;text-align:center;}
+.contentHeader > span{display:block;width:100%;}
+.contentHeader .mainText{font-size:20px;}
+.contentHeader .subText{font-weight:bold;font-stretch:condensed;font-size:18px;margin-top:10px;}
+.contentHeader .mainText .registerText{font-stretch:normal;}
+.contentPadding{padding:15px;}
+.contentUserInput{display:table;}
+.contentUserInput > div{display:table-cell;vertical-align:middle;}
+.contentUserInput > div.loginRegisterCont{width:60%;padding-right:20px;}
+.contentUserInput > div.orContainer{width:1%;border-right:2px solid #e2e2e2;position:relative}
+.contentUserInput > div.orContainer:after{content:'or';position:absolute;background-color:#fff;top:40%;}
+.contentUserInput > div.socialButtonsCont{width:34%;padding-left:30px;}
+.contentUserInput > div.socialButtonsCont > a{color:#fff; display:inline-block;position:relative;font-size:13px;font-weight:bold;width:80%;}
+
+/* form elements css */
+
+.statusMessage{visibility:hidden;}
+.error .statusMessage,.success .statusMessage{visibility:visible;}
+.fPassText{display:none;}
+.formElem{float:left;margin-bottom:10px;width:95%;position:relative;}
+.formElem   span{float:left}
+.formElem  > span{display:inline-block;float:left;}
+.formElem  > span.inputElem{width:60%;border:1px solid #ccc;padding:5px;border-radius:15px;} 
+.formElem  > span.inputElem input,.formElem  > span.inputElem select{width:100%;border:none;outline:none;height:30px;padding:0px 5px;}
+.formElem  > span.inputElem select,.formElem.lastField p{color:#aba9ae;}
+.formElem  > span.statusMessage{width:35%;font-size:12px;position:relative;left:15px;}
+.statusMessage > span.sprites{display: inline-block;width: 10px;height: 10px;margin-right:5px;}
+.formElem.error  .statusMessage{color:#C00;}
+.error .sprites{background-position: 22px -47px;position:relative;top:2px;}
+.success .sprites{background-position: 24px -56px;}
+.error .inputElem.forgotPassword input{width:52% !important}
+.error .inputElem.forgotPassword  .fpassText{display:inline-block;font-size:11px;font-style:italic;}
+.formElem .message{width:100px;}
+.formElem.error span.inputElem{border:1px solid #C00;}
+.formElem.lastField{width:60%;}
+.formElem.lastField label,.formElem.lastField p{font-size:12px;}
+.formElem.lastField label input{position:relative;top:2px;}
+.formElem.lastField .loginRegButton{padding:5px 16px;border-radius:15px;position:absolute;top:0px;right:10px;color:#fff;font-size:13px;font-weight:bold;}
+.formElem.lastField .loginRegButton{background-color:#60bbe9;}
+.formElem.lastField .loginRegButton.disabled{background-color:#cecece;}
+.lastField{min-height:40px;}
+.formElem.lastField p{line-height:20px;}
+.formElem.loginError {color:#C00;}
